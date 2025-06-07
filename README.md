@@ -10,7 +10,7 @@ A single-page prank form that pretends to sign people up for your “ultimate”
 
 ⸻
 
-## Quick start
+### Quick start
 
 	1.	Clone/download the repo.
 	2.	Open index.html in your browser.
@@ -18,13 +18,13 @@ A single-page prank form that pretends to sign people up for your “ultimate”
 
 ⸻
 
-## Deploy
+### Deploy
 
  GitHub Pages: push to main, then enable Pages in Settings → Pages.
 
 ⸻
 
-## License
+### License
 
  MIT — do whatever, no warranty.
 
