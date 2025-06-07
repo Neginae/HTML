@@ -4,7 +4,7 @@ A single-page prank form that pretends to sign people up for your “ultimate”
 
 ⸻
 
-## Live demo
+### Live demo
 
  https://<your-username>.github.io/persian-course-registration/
 
