@@ -13,7 +13,8 @@ Quick start
 	3.	Tweak text if you like.
 
 Deploy
-	•	GitHub Pages: push to main, then enable Pages in Settings → Pages.
+
+ GitHub Pages: push to main, then enable Pages in Settings → Pages.
 
 ⸻
 
