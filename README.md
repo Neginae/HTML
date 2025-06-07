@@ -16,4 +16,4 @@ My single-page prank form that pretends to sign people up for your “ultimate�
 
 ⸻
 
-Made with ❤️ on the way!
+Made with 🩷 on the way!
