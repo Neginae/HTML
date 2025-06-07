@@ -7,6 +7,7 @@ Live demo: https://<your-username>.github.io/persian-course-registration/
 ⸻
 
 Quick start
+
 	1.	Clone/download the repo.
 	2.	Open index.html in your browser.
 	3.	Tweak text if you like.
