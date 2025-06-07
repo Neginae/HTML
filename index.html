@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ultimate Persian Course Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg,#f7e8ff,#e0f3ff);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      margin:0;
+    }
+    .card{
+      background:white;
+      padding:2rem 3rem;
+      border-radius:1rem;
+      box-shadow:0 20px 40px rgba(0,0,0,0.1);
+      text-align:center;
+      max-width:400px;
+      width:100%;
+    }
+    h1{
+      font-size:1.75rem;
+      margin-bottom:0.5rem;
+    }
+    p.tagline{
+      margin-top:0;
+      color:#555;
+      font-style:italic;
+      margin-bottom:1.5rem;
+    }
+    label{
+      display:block;
+      text-align:left;
+      margin:0.75rem 0 0.25rem;
+      font-weight:bold;
+      font-size:0.9rem;
+    }
+    input{
+      width:100%;
+      padding:0.6rem 0.8rem;
+      border:1px solid #ccc;
+      border-radius:0.5rem;
+      font-size:1rem;
+    }
+    button{
+      margin-top:1.5rem;
+      padding:0.75rem;
+      width:100%;
+      font-size:1.1rem;
+      border:none;
+      border-radius:0.6rem;
+      background:#8b5cf6;
+      color:white;
+      cursor:pointer;
+      transition:transform 0.15s ease;
+    }
+    button:hover{
+      transform:translateY(-2px);
+    }
+    .hidden{
+      display:none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card" id="card">
+    <h1>Learn Persian with <span style="color:#8b5cf6;">Negin</span>!</h1>
+    <p class="tagline">Fluency guaranteed* or my cat will eat my homework.</p>
+    <form id="regForm">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+      <label for="code">Referral code (optional)</label>
+      <input id="code" name="code" type="text" placeholder="TEHRANROCKS">
+      <button type="submit">Enroll Now!</button>
+    </form>
+    <div id="thanks" class="hidden">
+      <h2>🎉 Shabash! 🎉</h2>
+      <p>Thanks for signing up! Expect 427 daily emails with advanced Persian tongue twisters 😜</p>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('regForm');
+    const thanks = document.getElementById('thanks');
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      form.classList.add('hidden');
+      thanks.classList.remove('hidden');
+      // For extra trolling, copy the form values to clipboard:
+      const data = new FormData(form);
+      const text = [...data.entries()].map(([k,v]) => k + ': ' + v).join('\\n');
+      navigator.clipboard.writeText(text).catch(() => {});
+    });
+  </script>
+</body>
+</html>
