@@ -6,7 +6,7 @@ A single-page prank form that pretends to sign people up for your “ultimate”
 
 ### Live demo
 
- https://<your-username>.github.io/persian-course-registration/
+ https://Neginae.github.io/persian-course-registration/
 
 ⸻
 
